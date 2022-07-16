@@ -23,7 +23,7 @@ func main() {
 		Age:     25,
 	}
 
-	alfian := Pegawai{"Alfian", "Madiun", 22}
+	alfian := Pegawai{"Alfian", "Madiun ", 22}
 
 	fmt.Println(findryan)
 	fmt.Println(dian)
