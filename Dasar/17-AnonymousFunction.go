@@ -1,3 +1,7 @@
+/*
+Function Tanpa Nama
+
+*/
 package main
 
 import "fmt"
@@ -13,7 +17,6 @@ func registeredUser(name string, blacklist Blacklist) {
 }
 
 func main() {
-	//function tanpa nama
 	blacklist := func(name string) bool {
 		return name == "Findryan"
 	}
