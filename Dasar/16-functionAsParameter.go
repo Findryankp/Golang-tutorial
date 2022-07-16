@@ -2,7 +2,9 @@ package main
 
 import "fmt"
 
-func hitungUsia(tahunLahir int, kriteria func(int) string) {
+type tKriteria func(int) string
+
+func hitungUsia(tahunLahir int, kriteria tKriteria) {
 	usia := 2022 - tahunLahir
 	fmt.Println("Usia : ", usia)
 
